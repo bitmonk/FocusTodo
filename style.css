@@ -1,0 +1,49 @@
+body {
+    background-image: url("todobackground.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+
+}
+
+#navbar {
+    margin-top: 2rem;
+}
+ul li{
+    display: inline;
+    list-style-type: none;
+    color: #ffffff;
+    padding-left: 3rem;
+}
+#title{
+    padding-right: 50rem;
+    font-size: 40px;
+    font-family: 'Libre Bodoni';    
+}
+
+li a{
+    text-decoration: none;
+    color: #FFFFFF;
+     
+}
+#task-wrapper{
+    height: 450px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    border-color: black;
+    z-index: -4;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    background-image: url('paperbackground.jpg');
+    border-radius: 20px;
+}
+
+#day{
+    color: rgb(0, 0, 0);
+}
+#inputTask{
+    height: 2rem;
+}
