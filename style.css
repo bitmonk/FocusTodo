@@ -10,18 +10,21 @@ body {
 #navbar {
     margin-top: 2rem;
 }
-ul li{
-    display: inline;
-    list-style-type: none;
-    color: #ffffff;
-    padding-left: 3rem;
-}
+
 #title{
+    display: inline; 
+    padding-left: 1px;
+    list-style-type: none;
     padding-right: 50rem;
     font-size: 40px;
     font-family: 'Libre Bodoni';    
+    color: white;
 }
 
+li{
+    display:inline;
+    text-align: right;
+}
 li a{
     text-decoration: none;
     color: #FFFFFF;
@@ -42,8 +45,15 @@ li a{
 }
 
 #day{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
     color: rgb(0, 0, 0);
+    margin-left: 280px;
+    
 }
-#inputTask{
-    height: 2rem;
+#inputTask {
+    display: block;
+    margin-top: 390px;
 }
