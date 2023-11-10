@@ -16,7 +16,7 @@ body {
     display: inline; 
     padding-left: 1px;
     list-style-type: none;
-    padding-right: 50rem;
+    padding-right:20re;
     font-size: 40px;
     font-family: 'Libre Bodoni';    
     color: white;
@@ -25,12 +25,14 @@ body {
 li{
     display:inline;
     text-align: right;
+    padding: 0.5rem;
 }
 li a{
     text-decoration: none;
     color: #FFFFFF;
      
 }
+
 #task-wrapper{
     height: 450px;
     width: 350px;
@@ -46,12 +48,10 @@ li a{
 }
 
 #day{
-    postion: absolute;
+    position: absolute;
     height: 100px;
     color: rgb(0, 0, 0);
     margin-bottom: 300px;
-
-    
 }
 #inputTask{
     position: absolute;
