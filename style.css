@@ -8,6 +8,7 @@ body {
 }
 
 #navbar {
+    display: block;
     margin-top: 2rem;
 }
 
@@ -35,9 +36,9 @@ li a{
     width: 350px;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-style: none;
     border-color: black;
-    z-index: -4;
     margin-left: 10rem;
     margin-top: 5rem;
     background-image: url('paperbackground.jpg');
@@ -45,15 +46,16 @@ li a{
 }
 
 #day{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    postion: absolute;
     height: 100px;
     color: rgb(0, 0, 0);
-    margin-left: 280px;
+    margin-bottom: 300px;
+
     
 }
-#inputTask {
-    display: block;
-    margin-top: 390px;
+#inputTask{
+    position: absolute;
+    margin-top: 350px;
+    width: 200px;
 }
+
