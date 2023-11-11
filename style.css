@@ -30,12 +30,13 @@ li{
 li a{
     text-decoration: none;
     color: #FFFFFF;
+    margin-left: 10rem;
      
 }
 
 #task-wrapper{
-    height: 450px;
-    width: 350px;
+    height:400px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,13 +50,29 @@ li a{
 
 #day{
     position: absolute;
-    height: 100px;
+    height: 60px;
     color: rgb(0, 0, 0);
     margin-bottom: 300px;
 }
 #inputTask{
     position: absolute;
-    margin-top: 350px;
-    width: 200px;
+    margin-top: 300px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#sendInput{
+    position: absolute;
+    top: 504px;
+    left: 400px;
+    z-index: 10;
+
+}
+@media  screen and (max-width: 875px) {
+    #navbar {
+        display: flex;
+        margin-top: 2rem;
+    }
 }
 
